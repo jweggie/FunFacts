@@ -22,10 +22,10 @@ var facts = [
 	'Fun Fact: The coolest dinosaur is the iguanadon because it has the latest bed time (9:30).',
 	'Fun Fact: The most dangerous predator of all time is the gold fish.',
 	'Fun Fact: All dogs named Max are spawns of satan.',
-	'Fun Fact: Cars function by having a little rabbit under the hood running on a treadmill.',
+	'Fun Fact: Cars function by having a little rabbit under the hood running on a treadmill.'
 ]
 
 { function newFact() {
-	var randomNumber = Math.floor(Math.random() * (quotes.length));
+	var randomNumber = Math.floor(Math.random() * (facts.length));
 	document.getElementById('factDisplay').innerHTML = facts[randomNumber];
 }}
