@@ -25,7 +25,7 @@ var facts = [
 	'Fun Fact: Cars function by having a little rabbit under the hood running on a treadmill.'
 ]
 
-{ function newFact() {
+function newFact() {
 	var randomNumber = Math.floor(Math.random() * (facts.length));
 	document.getElementById('factDisplay').innerHTML = facts[randomNumber];
-}}
+}
